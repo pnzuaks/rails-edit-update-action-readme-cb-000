@@ -39,7 +39,7 @@ describe 'form' do
     visit edit_post_path(@post)
 
     # fill_in :title, with: "My edit"
-    fill_in 'description', with: "My post description"
+    # fill_in 'description', with: "My post description"
 
     click_on "Submit Post"
 
